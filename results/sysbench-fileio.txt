@@ -1,0 +1,44 @@
+linaro@linaro-alip:~$ sysbench --test=fileio --file-total-size=5G prepare
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+128 files, 40960Kb each, 5120Mb total
+Creating files for the test...
+linaro@linaro-alip:~$ sysbench --test=fileio --file-total-size=5G --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from timer.
+
+
+Extra file open flags: 0
+128 files, 40Mb each
+5Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  420 Read, 280 Write, 829 Other = 1529 Total
+Read 6.5625Mb  Written 4.375Mb  Total transferred 10.938Mb  (37.242Kb/sec)
+    2.33 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.7358s
+    total number of events:              700
+    total time taken by event execution: 5.3464
+    per-request statistics:
+         min:                                  0.03ms
+         avg:                                  7.64ms
+         max:                               1129.22ms
+         approx.  95 percentile:               2.50ms
+
+Threads fairness:
+    events (avg/stddev):           700.0000/0.00
+    execution time (avg/stddev):   5.3464/0.00

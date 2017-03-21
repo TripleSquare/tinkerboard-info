@@ -1,0 +1,5 @@
+linaro@linaro-alip:~$ sudo hdparm -Tt /dev/sda1
+
+/dev/sda1:
+ Timing cached reads:   1532 MB in  2.00 seconds = 766.33 MB/sec
+ Timing buffered disk reads:  38 MB in  3.04 seconds =  12.48 MB/sec

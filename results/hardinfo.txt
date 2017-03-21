@@ -1,0 +1,442 @@
+
+Computer
+********
+
+
+Summary
+-------
+
+-Computer-
+Processor		: (null)
+Memory		: 2063MB (216MB used)
+Operating System		: Debian GNU/Linux 8.7
+User Name		: linaro (linaro)
+Date/Time		: Tue Mar 21 11:46:27 2017
+-Display-
+Resolution		: 0x0 pixels
+OpenGL Renderer		: Unknown
+X11 Vendor		: (null)
+-Multimedia-
+Audio Adapter		: USB-Audio - USB Audio
+Audio Adapter		: rockchip_miniar - rockchip,miniarm-codec
+-Input Devices-
+ Generic USB Audio
+ gpio-keys
+-Printers-
+No printers found
+
+Operating System
+----------------
+
+-Version-
+Kernel		: Linux 4.4.16 (armv7l)
+Compiled		: #25 SMP Thu Feb 23 17:59:58 CST 2017
+C Library		: Unknown
+Default C Compiler		: GNU C Compiler version 4.9.2 (Debian 4.9.2-10) 
+Distribution		: Debian GNU/Linux 8.7
+-Current Session-
+Computer Name		: linaro-alip
+User Name		: linaro (linaro)
+Home Directory		: /home/linaro
+Desktop Environment		: Terminal
+-Misc-
+Uptime		: 2 hours, 1 minute
+Load Average		: 0.31, 0.52, 0.58
+
+Kernel Modules
+--------------
+
+-Loaded Modules-
+8723bs		: Realtek Wireless Lan Driver
+
+Boots
+-----
+
+-Boots-
+Fri Jan 18 08:50		: 4.4.16|still
+Fri Jan 18 08:50		: 4.4.16|still
+Fri Jan 18 08:50		: 4.4.16|still
+
+Languages
+---------
+
+-Available Languages-
+
+Filesystems
+-----------
+
+-Mounted File Systems-
+/dev/root	/	10.45 % (25.5 GiB of 28.4 GiB)	
+devtmpfs	/dev	0.00 % (943.2 MiB of 943.2 MiB)	
+tmpfs	/dev/shm	0.01 % (1007.7 MiB of 1007.7 MiB)	
+tmpfs	/run	1.66 % (991.0 MiB of 1007.7 MiB)	
+tmpfs	/run/lock	0.08 % (5.0 MiB of 5.0 MiB)	
+tmpfs	/sys/fs/cgroup	0.00 % (1007.7 MiB of 1007.7 MiB)	
+/dev/mmcblk0p1	/boot	10.26 % (56.5 MiB of 63.0 MiB)	
+tmpfs	/run/user/1000	0.00 % (201.5 MiB of 201.6 MiB)	
+
+Display
+-------
+
+-Display-
+Resolution		: 0x0 pixels
+Vendor		: (null)
+Version		: (null)
+-Monitors-
+-Extensions-
+
+Environment Variables
+---------------------
+
+-Environment Variables-
+XDG_SESSION_ID		: c2
+COMP_WORDBREAKS
+
+Users
+-----
+
+-Users-
+root		: root
+daemon		: daemon
+bin		: bin
+sys		: sys
+sync		: sync
+games		: games
+man		: man
+lp		: lp
+mail		: mail
+news		: news
+uucp		: uucp
+proxy		: proxy
+www-data		: www-data
+backup		: backup
+list		: Mailing List Manager
+irc		: ircd
+gnats		: Gnats Bug-Reporting System (admin)
+nobody		: nobody
+systemd-timesync		: systemd Time Synchronization
+systemd-network		: systemd Network Management
+systemd-resolve		: systemd Resolver
+systemd-bus-proxy		: systemd Bus Proxy
+messagebus
+dnsmasq		: dnsmasq
+gpsd		: GPSD system user
+sshd
+pulse		: PulseAudio daemon
+lightdm		: Light Display Manager
+linaro		: linaro
+ntp
+
+Devices
+*******
+
+
+Processor
+---------
+
+-Processor-
+Name
+Hardware		: %s
+Features		: (null)
+BogoMips		: 96.76
+Endianesss		: Little Endian
+
+Memory
+------
+
+-Memory-
+Total Memory		: 2063844 kB
+Free Memory		: 1634300 kB
+MemAvailable		: 1881500 kB
+Buffers		: 50920 kB
+Cached		: 213200 kB
+Cached Swap		: 0 kB
+Active		: 225492 kB
+Inactive		: 126904 kB
+Active(anon)		: 88932 kB
+Inactive(anon)		: 28008 kB
+Active(file)		: 136560 kB
+Inactive(file)		: 98896 kB
+Unevictable		: 0 kB
+Mlocked		: 0 kB
+High Memory		: 1310720 kB
+Free High Memory		: 1099604 kB
+Low Memory		: 753124 kB
+Free Low Memory		: 534696 kB
+Virtual Memory		: 0 kB
+Free Virtual Memory		: 0 kB
+Dirty		: 12 kB
+Writeback		: 264 kB
+AnonPages		: 88316 kB
+Mapped		: 65756 kB
+Shmem		: 28632 kB
+Slab		: 43948 kB
+SReclaimable		: 30728 kB
+SUnreclaim		: 13220 kB
+KernelStack		: 1720 kB
+PageTables		: 2700 kB
+NFS_Unstable		: 0 kB
+Bounce		: 0 kB
+WritebackTmp		: 0 kB
+CommitLimit		: 1031920 kB
+Committed_AS		: 885700 kB
+VmallocTotal		: 245760 kB
+VmallocUsed		: 0 kB
+VmallocChunk		: 0 kB
+CmaTotal		: 131072 kB
+CmaFree		: 130220 kB
+
+PCI Devices
+-----------
+
+-PCI Devices-
+
+USB Devices
+-----------
+
+
+Printers
+--------
+
+-Printers-
+No printers found
+
+Battery
+-------
+
+-No batteries-
+No batteries found on this system
+
+Sensors
+-------
+
+
+Input Devices
+-------------
+
+-Input Devices-
+ Generic USB Audio
+ gpio-keys
+
+Storage
+-------
+
+
+Resources
+---------
+
+-I/O Ports-
+-Memory-
+<tt>00000000-7fffffff </tt>		: System RAM
+<tt>  00008000-00ed628b </tt>		: Kernel code
+<tt>  01000000-01140eef </tt>		: Kernel data
+<tt>ff0c0000-ff0c3fff </tt>		: /dwmmc@ff0c0000
+<tt>ff0d0000-ff0d3fff </tt>		: /dwmmc@ff0d0000
+<tt>ff100000-ff1000ff </tt>		: /saradc@ff100000
+<tt>ff130000-ff130fff </tt>		: /spi@ff130000
+<tt>ff140000-ff140fff </tt>		: /i2c@ff140000
+<tt>ff150000-ff150fff </tt>		: /i2c@ff150000
+<tt>ff160000-ff160fff </tt>		: /i2c@ff160000
+<tt>ff170000-ff170fff </tt>		: /i2c@ff170000
+<tt>ff180000-ff18001f </tt>		: serial
+<tt>ff190000-ff19001f </tt>		: serial
+<tt>ff1b0000-ff1b001f </tt>		: serial
+<tt>ff250000-ff253fff </tt>		: /amba/dma-controller@ff250000
+<tt>  ff250000-ff253fff </tt>		: /amba/dma-controller@ff250000
+<tt>ff280000-ff2800ff </tt>		: /tsadc@ff280000
+<tt>ff290000-ff29ffff </tt>		: /ethernet@ff290000
+<tt>ff500000-ff5000ff </tt>		: /usb@ff500000
+<tt>ff540000-ff57ffff </tt>		: /usb@ff540000
+<tt>ff580000-ff5bffff </tt>		: /usb@ff580000
+<tt>ff610000-ff6103fb </tt>		: /dmc@ff610000
+<tt>ff620000-ff620293 </tt>		: /dmc@ff610000
+<tt>ff630000-ff6303fb </tt>		: /dmc@ff610000
+<tt>ff640000-ff640293 </tt>		: /dmc@ff610000
+<tt>ff650000-ff650fff </tt>		: /i2c@ff650000
+<tt>ff660000-ff660fff </tt>		: /i2c@ff660000
+<tt>ff690000-ff69001f </tt>		: serial
+<tt>ff730000-ff7300ff </tt>		: /power-management@ff730000
+<tt>ff740000-ff740fff </tt>		: /syscon@ff740000
+<tt>ff750000-ff7500ff </tt>		: /pinctrl/gpio0@ff750000
+<tt>ff760000-ff760fff </tt>		: /clock-controller@ff760000
+<tt>ff770000-ff770fff </tt>		: /syscon@ff770000
+<tt>ff780000-ff7800ff </tt>		: /pinctrl/gpio1@ff780000
+<tt>ff790000-ff7900ff </tt>		: /pinctrl/gpio2@ff790000
+<tt>ff7a0000-ff7a00ff </tt>		: /pinctrl/gpio3@ff7a0000
+<tt>ff7b0000-ff7b00ff </tt>		: /pinctrl/gpio4@ff7b0000
+<tt>ff7c0000-ff7c00ff </tt>		: /pinctrl/gpio5@ff7c0000
+<tt>ff7d0000-ff7d00ff </tt>		: /pinctrl/gpio6@ff7d0000
+<tt>ff7e0000-ff7e00ff </tt>		: /pinctrl/gpio7@ff7e0000
+<tt>ff7f0000-ff7f00ff </tt>		: /pinctrl/gpio8@ff7f0000
+<tt>ff890000-ff89ffff </tt>		: /i2s@ff890000
+<tt>ff930000-ff93019b </tt>		: /vop@ff930000
+<tt>ff930300-ff9303ff </tt>		: /iommu@ff930300
+<tt>ff940000-ff94019b </tt>		: /vop@ff940000
+<tt>ff940300-ff9403ff </tt>		: /iommu@ff940300
+<tt>ff960000-ff963fff </tt>		: /mipi@ff960000
+<tt>ff980000-ff99ffff </tt>		: /hdmi@ff980000
+<tt>ff9a0000-ff9a07ff </tt>		: /vpu-service@ff9a0000
+<tt>ff9a0800-ff9a08ff </tt>		: /iommu@ff9a0800
+<tt>ff9c0000-ff9c03ff </tt>		: /hevc-service@ff9c0000
+<tt>ff9c0440-ff9c047f </tt>		: /iommu@ff9c0440
+<tt>ff9c0480-ff9c04bf </tt>		: /iommu@ff9c0440
+<tt>ffa30000-ffa3ffff </tt>		: ffa30000.gpu
+<tt>ffac0000-ffac1fff </tt>		: /syscon@ffac0000
+<tt>ffb20000-ffb23fff </tt>		: /amba/dma-controller@ffb20000
+<tt>  ffb20000-ffb23fff </tt>		: /amba/dma-controller@ffb20000
+<tt>ffb40000-ffb4001f </tt>		: /efuse@ffb40000
+
+Network
+*******
+
+
+Interfaces
+----------
+
+-Network Interfaces-
+wlan0	0.00MiB	0.00MiB		
+sit0	0.00MiB	0.00MiB		
+lo	0.00MiB	0.00MiB	127.0.0.1	
+eth0	1296.64MiB	1107.04MiB	xxx.xxx.xxx.xxx	
+
+IP Connections
+--------------
+
+-Connections-
+0.0.0.0:22	LISTEN	0.0.0.0:*	tcp	
+127.0.0.1:2947	LISTEN	0.0.0.0:*	tcp	
+xxx.xxx.xxx.xxx	:22	ESTABLISHED	xxx.xxx.xxx.xxx	:63165	tcp	
+xxx.xxx.xxx.xxx	:55180	TIME_WAIT	xxx.xxx.xxx.xxx	:80	tcp	
+xxx.xxx.xxx.xxx	:37292	TIME_WAIT	xxx.xxx.xxx.xxx	:80	tcp	
+:::22	LISTEN	:::*	tcp6	
+:::12865	LISTEN	:::*	tcp6	
+::1:2947	LISTEN	:::*	tcp6	
+xxx.xxx.xxx.xxx	:123		0.0.0.0:*	udp	
+127.0.0.1:123		0.0.0.0:*	udp	
+0.0.0.0:123		0.0.0.0:*	udp	
+127.0.0.1:30001		0.0.0.0:*	udp	
+0.0.0.0:68		0.0.0.0:*	udp	
+fe80::2e4d:54ff:fe2:123		:::*	udp6	
+::1:123		:::*	udp6	
+:::123		:::*	udp6	
+
+Routing Table
+-------------
+
+-IP routing table-
+0.0.0.0 / xxx.xxx.xxx.xxx	0.0.0.0	UG	eth0	
+xxx.xxx.xxx.xxx	 / 0.0.0.0	255.255.255.0	U	eth0	
+
+ARP Table
+---------
+
+-ARP Table-
+xxx.xxx.xxx.xxx		xx:xx:xx:xx:xx:xx	eth0	
+xxx.xxx.xxx.xxx		xx:xx:xx:xx:xx:xx	eth0	
+
+DNS Servers
+-----------
+
+-Name servers-
+xxx.xxx.xxx.xxx
+xxx.xxx.xxx.xxx
+
+Statistics
+----------
+
+-IP-
+277334		: Total packets received
+2		: With invalid addresses
+0		: Incoming packets discarded
+0		: Incoming packets discarded
+277188		: Incoming packets delivered
+132073		: Requests sent out
+64		: Dropped because of missing route
+-ICMP-
+2		: ICMP messages sent
+0		: ICMP messages failed
+2		: ICMP messages sent
+0		: ICMP messages failed
+-ICMPMSG-
+-TCP-
+25		: Active connections openings
+3		: Failed connection attempts
+3		: Failed connection attempts
+1		: Connections established
+1		: Connections established
+276639		: Segments received
+874985		: Segments send out
+14		: Segments retransmited
+0		: Bad segments received.
+9		: Resets sent
+-UDP-
+349		: Packets received
+1		: Packets to unknown port received.
+0		: Packet receive errors
+351		: Packets sent
+-UDPLITE-
+-TCPEXT-
+9		: TCP sockets finished time wait in fast timer
+64		: Delayed acks sent
+1		: Delayed acks further delayed because of locked socket
+6		: Packets directly queued to recvmsg prequeue.
+291		: Bytes directly received in process context from prequeue
+156848		: Packet headers predicted
+2		: Packets header predicted and directly queued to user
+3153		: Acknowledgments not containing data payload received
+112261		: Predicted acknowledgments
+4		: Other TCP timeouts
+-IPEXT-
+
+Shared Directories
+------------------
+
+-SAMBA-
+Cannot open /etc/samba/smb.conf
+-NFS-
+
+Benchmarks
+**********
+
+
+CPU Blowfish
+------------
+
+-CPU Blowfish-
+<big><b>This Machine</b></big>	Unknown MHz	24.254	
+Intel(R) Celeron(R) M processor         1.50GHz	(null)	26.1876862	
+PowerPC 740/750 (280.00MHz)	(null)	172.816713	
+
+CPU CryptoHash
+--------------
+
+-CPU CryptoHash-
+<big><b>This Machine</b></big>	Unknown MHz	68.101	
+
+CPU Fibonacci
+-------------
+
+-CPU Fibonacci-
+<big><b>This Machine</b></big>	Unknown MHz	7.107	
+Intel(R) Celeron(R) M processor         1.50GHz	(null)	8.1375674	
+PowerPC 740/750 (280.00MHz)	(null)	58.07682	
+
+CPU N-Queens
+------------
+
+-CPU N-Queens-
+<big><b>This Machine</b></big>	Unknown MHz	16.363	
+
+FPU FFT
+-------
+
+-FPU FFT-
+<big><b>This Machine</b></big>	Unknown MHz	13.764	
+
+FPU Raytracing
+--------------
+
+-FPU Raytracing-
+<big><b>This Machine</b></big>	Unknown MHz	30.668	
+Intel(R) Celeron(R) M processor         1.50GHz	(null)	40.8816714	
+PowerPC 740/750 (280.00MHz)	(null)	161.312647	

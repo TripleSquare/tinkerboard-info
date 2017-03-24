@@ -16,7 +16,7 @@ Sysbench Cpu Prime : [click me](/results/sysbench-cpu-prime.txt)
 Sysbench File IO : [click me](/results/sysbench-fileio.txt)  
 hdparm testig USB : [click me](/results/hdparm.txt)  
 ffmpeg Big Buck Bunny reencode : [click me](/results/ffmpeg.md)  
-
+Synthetic load to test Temp with and with out case: [click me](/results/temp.md)
 
 ## Miscellaneous: 
 

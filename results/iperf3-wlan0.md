@@ -3,7 +3,7 @@
 
 ##Server
 
->linaro@linaro-alip:~$ iperf3 -B wlan0 -s  
+>linaro@linaro-alip:~$ iperf3 -s  
 
 >Server listening on 5201  
 
@@ -12,30 +12,30 @@
 
 | [  ID] | Interval | Transfer | Bandwidth |  
 | ----- | -------- | --------:| ---------:|
-| [ 5] | 0.00-1.00   sec | 4.56 MBytes | 38.3 Mbits/sec |
-| [ 5] | 1.00-2.00   sec | 4.75 MBytes | 39.8 Mbits/sec |
-| [ 5] | 2.00-3.00   sec | 4.78 MBytes | 40.1 Mbits/sec |
-| [ 5] | 3.00-4.00   sec | 5.03 MBytes | 42.2 Mbits/sec |
-| [ 5] | 4.00-5.00   sec | 5.08 MBytes | 42.6 Mbits/sec |
-| [ 5] | 5.00-6.00   sec | 4.98 MBytes | 41.8 Mbits/sec |
-| [ 5] | 6.00-7.00   sec | 5.07 MBytes | 42.5 Mbits/sec |
-| [ 5] | 7.00-8.00   sec | 4.97 MBytes | 41.7 Mbits/sec |
-| [ 5] | 8.00-9.00   sec | 5.02 MBytes | 42.1 Mbits/sec |
-| [ 5] | 9.00-10.00  sec | 5.14 MBytes | 43.1 Mbits/sec |
-| [ 5] | 10.00-10.04  sec |  249 KBytes | 46.5 Mbits/sec |
+| [  5] |   0.00-1.00   sec |    163 KBytes |   1.33 Mbits/sec | 
+| [  5] |   1.00-2.00   sec |   4.07 MBytes |   34.2 Mbits/sec | 
+| [  5] |   2.00-3.00   sec |   3.97 MBytes |   33.3 Mbits/sec | 
+| [  5] |   3.00-4.00   sec |   4.41 MBytes |   37.0 Mbits/sec | 
+| [  5] |   4.00-5.00   sec |   4.53 MBytes |   38.0 Mbits/sec | 
+| [  5] |   5.00-6.00   sec |   4.30 MBytes |   36.0 Mbits/sec | 
+| [  5] |   6.00-7.00   sec |   4.37 MBytes |   36.6 Mbits/sec | 
+| [  5] |   7.00-8.00   sec |   4.36 MBytes |   36.6 Mbits/sec | 
+| [  5] |   8.00-9.00   sec |   4.42 MBytes |   37.1 Mbits/sec | 
+| [  5] |   9.00-10.00  sec |   4.44 MBytes |   37.3 Mbits/sec | 
+| [  5] |  10.00-10.05  sec |    226 KBytes |   34.0 Mbits/sec | 
   
 
 | [  ID] | Interval | Transfer | Bandwidth | / |
 | ------ | -------- | --------:| ---------:| --- |
-| [ 5] | 0.00-10.04  sec | 49.6 MBytes | 41.4 Mbits/sec | sender |
-| [ 5] | 0.00-10.04  sec | 49.6 MBytes | 41.4 Mbits/sec | receiver |
+| [  5] |   0.00-10.05  sec |   39.2 MBytes |   32.7 Mbits/sec | sender |
+| [  5] |   0.00-10.05  sec |   39.2 MBytes |   32.7 Mbits/sec | receiver |
 
 >iperf3: interrupt - the server has terminated  
 
 
 ##Client
 
->linaro@linaro-alip:~$ iperf3 -B wlan0 -c xxx.xxx.xxx.xxx  
+>linaro@linaro-alip:~$ iperf3 -c xxx.xxx.xxx.xxx  
 
 >Connecting to host xxx.xxx.xxx.xxx, port 5201  
 
@@ -43,21 +43,21 @@
 
 | [  ID] | Interval | Transfer | Bandwidth | Retr | Cwnd |
 | ------ | -------- | --------:| ---------:|:----:| ---:|
-| [ 4] | 0.00-1.00   sec |  246 KBytes | 2.02 Mbits/sec | 1 | 14.1 KBytes |
-| [ 4] | 1.00-2.00   sec |  173 KBytes | 1.41 Mbits/sec | 0 | 14.1 KBytes |
-| [ 4] | 2.00-3.00   sec |  206 KBytes | 1.69 Mbits/sec | 0 | 17.0 KBytes |
-| [ 4] | 3.00-4.00   sec |  243 KBytes | 1.99 Mbits/sec | 0 | 19.8 KBytes |
-| [ 4] | 4.00-5.00   sec |  194 KBytes | 1.59 Mbits/sec | 0 | 19.8 KBytes |
-| [ 4] | 5.00-6.00   sec |  327 KBytes | 2.68 Mbits/sec | 0 | 22.6 KBytes |
-| [ 4] | 6.00-7.00   sec |  250 KBytes | 2.05 Mbits/sec | 0 | 22.6 KBytes |
-| [ 4] | 7.00-8.00   sec |  510 KBytes | 4.18 Mbits/sec | 0 | 28.3 KBytes |
-| [ 4] | 8.00-9.00   sec |  557 KBytes | 4.56 Mbits/sec | 0 | 33.9 KBytes |
-| [ 4] | 9.00-10.00  sec |  611 KBytes | 5.00 Mbits/sec | 0 | 36.8 KBytes |
+| [  4] |   0.00-1.00   sec |   2.81 MBytes |   23.6 Mbits/sec |    16 | 73.5 KBytes | 
+| [  4] |   1.00-2.00   sec |   3.77 MBytes |   31.6 Mbits/sec |     0 | 105 KBytes | 
+| [  4] |   2.00-3.00   sec |   3.75 MBytes |   31.4 Mbits/sec |     0 | 127 KBytes | 
+| [  4] |   3.00-4.00   sec |   3.81 MBytes |   32.0 Mbits/sec |     0 | 147 KBytes | 
+| [  4] |   4.00-5.00   sec |   3.73 MBytes |   31.3 Mbits/sec |     0 | 165 KBytes | 
+| [  4] |   5.00-6.00   sec |   3.59 MBytes |   30.1 Mbits/sec |     0 | 180 KBytes | 
+| [  4] |   6.00-7.00   sec |   3.75 MBytes |   31.5 Mbits/sec |     0 | 195 KBytes | 
+| [  4] |   7.00-8.00   sec |   3.62 MBytes |   30.4 Mbits/sec |     0 | 209 KBytes | 
+| [  4] |   8.00-9.00   sec |   3.73 MBytes |   31.3 Mbits/sec |     0 | 209 KBytes | 
+| [  4] |   9.00-10.00  sec |   3.64 MBytes |   30.5 Mbits/sec |     0 | 209 KBytes | 
   
 
 | [  ID] | Interval | Transfer | Bandwidth | Retr | / |
 | ------ | -------- | --------:| ---------:|:----:| --- |
-| [ 4] | 0.00-10.00  sec | 3.24 MBytes | 2.72 Mbits/sec | 1 | sender
-| [ 4] | 0.00-10.00  sec | 3.15 MBytes | 2.64 Mbits/sec | / | receiver
+| [  4] |   0.00-10.00  sec |   36.2 MBytes |   30.4 Mbits/sec | 16 | sender |
+| [  4] |   0.00-10.00  sec |   36.1 MBytes |   30.3 Mbits/sec |  / | receiver |
 
 >iperf Done.  

@@ -10,15 +10,15 @@
 | Load | Temperature | Description |
 | --- | ---:| --- |
 | idle | 46°C | none |
-| 100% | 77~80°C | throttling 1~1.5GHz | 
+| 100% | 77 - 80°C | throttling 1 - 1.5GHz | 
 
 
 ###Tinkerboard without Case
 
 | Load | Temperature | Description |
 | --- | ---:| --- |
-| idle | 40~42°C | none |
-| 100% | 77~80°C | throttling 1~1.5GHz |
+| idle | 40 - 42°C | none |
+| 100% | 77 - 80°C | throttling 1 - 1.5GHz |
 
 
 ###Definition
